@@ -16,12 +16,15 @@ public class Paquetes {
     /**
      * Método principal que demuestra el uso de clases de los paquetes importados.
      * 
-     * @param point Se crea para representar coordenadas
-     * @param CompositeName Maneja nombres compuestos
-     * @param oid Representa identificadores de objetos
-     *
+     * @param point Un objeto de tipo Point que representa las coordenadas del punto.
+     * 
+     * @param name Un objeto de tipo CompositeName que maneja nombres compuestos.
+     * 
+     * @param oid Un objeto de tipo Oid que representa identificadores de objetos.
+     * 
+     * @return Cadena que describe las coordenadas del punto, el nombre compuesto y el identificador de objeto
      */
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         Point point = new Point(10, 20);
         System.out.println("Point coordinates: (" + point.x + ", " + point.y + ")");
 
