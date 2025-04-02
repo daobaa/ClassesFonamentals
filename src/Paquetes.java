@@ -6,7 +6,7 @@
  * 
  * @author Diego Andrés Olivera Abarca
  * @version 1.0
- * @date 26 de marzo de 2025
+ * @date 02 de abril de 2025
  */
 import java.awt.*;
 import javax.naming.*;
