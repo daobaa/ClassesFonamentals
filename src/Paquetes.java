@@ -13,12 +13,18 @@ import javax.naming.*;
 import org.ietf.jgss.*;
 
 public class Paquetes {
+    /**
+     * Método principal que demuestra el uso de clases de los paquetes importados.
+     * 
+     * @param point Se crea para representar coordenadas
+     * @param CompositeName Maneja nombres compuestos
+     * @param oid Representa identificadores de objetos
+     *
+     */
     public static void main(String[] args) {
-        // Using java.awt package
         Point point = new Point(10, 20);
         System.out.println("Point coordinates: (" + point.x + ", " + point.y + ")");
 
-        // Using javax.naming package
         Name name;
         try {
             name = new CompositeName("example/name");
@@ -27,7 +33,6 @@ public class Paquetes {
             System.out.println("NamingException occurred: " + e.getMessage());
         }
 
-        // Using org.ietf package
         try {
             Oid oid = new Oid("1.2.840.113554.1.2.2");
             System.out.println("OID created: " + oid.toString());
