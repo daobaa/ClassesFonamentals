@@ -20,6 +20,13 @@ public class DirectoPosicion {
      * @param .write Es un metodo que permite que el objeto escriba en la posición previamente indicada.
      * 
      * @param rafR Es un objeto de tipo RandomAccessFile encargado de la lectura por posición en el archivo.
+     * 
+     * @return Este método no devuelve un valor, pero realiza las siguientes operaciones:
+     * - Escribe datos específicos en el archivo en posiciones concretas: 0, 50 y 100.
+     * - Mueve el puntero del archivo mediante el método .seek para ubicar cada posición correspondiente.
+     * - Recupera los datos almacenados previamente desde las posiciones especificadas.
+     * - Imprime en pantalla el contenido leído desde cada posición del archivo, mostrando los registros tal como fueron escritos.
+     * - Si ocurre alguna excepción durante la operación (lectura o escritura), imprime el stack trace para facilitar la depuración.
      */
     public static void main(String[] args) {
         String archivo = "accesoDirecto.txt";

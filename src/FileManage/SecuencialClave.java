@@ -27,6 +27,9 @@ public class SecuencialClave {
      * @param linea Es un String que almacena el contenido del archivo por lineas.
      * 
      * @param encontrado Es un Booleano marcado como false.
+     * 
+     * @return No devuelve ningún valor directamente, pero imprime en pantalla el resultado de la búsqueda.
+     * 
      * Condiciones y Resultados:
      * <ul>
      *  <li>Si el numero se encuentra en el archivo previo al primer "|", cambia su valor a true.

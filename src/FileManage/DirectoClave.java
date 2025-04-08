@@ -22,6 +22,8 @@ public class DirectoClave {
      * 
      * @param claveBuscada Es un String que almacena el input del usuario.
      * 
+     * @return No devuelve un valor directamente, pero imprime en pantalla el registro correspondiente si la clave es válida, o un mensaje de error en caso contrario.
+     * 
      * Condiciones y Resultados:
      * <ul>
      *  <li>Si la clave corresponde a una posición válida en el archivo:
